@@ -18,7 +18,7 @@ export function HeroSection() {
         <div className="text-white">
           <AnimatedSection animation="fade-in-up">
             <p className="text-[#FAC775] font-semibold text-sm uppercase tracking-wider mb-4">
-              College President &middot; Senior Pastor &middot; Author &middot; Global Women&apos;s Leader &middot; Pharmacist
+              College President &middot; Senior Pastor &middot; Pharmacist &middot; Author 
             </p>
           </AnimatedSection>
 
