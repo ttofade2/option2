@@ -38,7 +38,7 @@ export default function GlobalWomenLeadersPage() {
             <AnimatedSection animation="fade-in" delay={200} className="relative">
               <div className="relative aspect-[4/3] max-w-lg mx-auto">
                 <Image
-                  src="/congregation.jpeg"
+                  src="/option2/congregation.jpeg"
                   alt="Dr. Tofade and Mentee"
                   fill
                   className="object-cover rounded-xl shadow-2xl"
