@@ -10,55 +10,61 @@ export const metadata = {
 }
 
 const mediaAppearances = [
-  { 
-    outlet: "Albany Business Review", 
-    title: "Power 50 Executive", 
-    years: "2023, 2024, 2025",
-    link: "https://www.bizjournals.com/albany/news/2023/11/06/power-50-toyin-tofade.html"
+   {
+    outlet: "AAPS News Magazine",
+    title: "My Mentorship Journey: An Interview with Toyin Tofade, President, Albany College of Pharmacy and Health Sciences",
+    link: "https://www.aapsnewsmagazine.org/aapsnewsmagazine/articles/new-page2/mar24/career-success-mar24b",
   },
-  { 
-    outlet: "Times Union", 
-    title: "Albany College of Pharmacy names new president",
-    link: "https://www.timesunion.com/news/article/albany-college-of-pharmacy-names-new-president-17022621.php"
+  {
+    outlet: "Howard University's News & Stories Hub",
+    title: "Departing College of Pharmacy Dean Toyin Tofade Establishes Endowed Fund for Leadership Development",
+    link: "https://thedig.howard.edu/all-stories/departing-college-pharmacy-dean-toyin-tofade-establishes-endowed-fund-leadership-development",
   },
-  { 
-    outlet: "Vanguard News (Nigeria)", 
-    title: "Meet Toyin Tofade, first Black female president of a US college",
-    link: "https://www.vanguardngr.com/2022/04/meet-toyin-tofade-first-black-female-president-of-a-us-college/"
+  {
+    outlet: "Albany Business Review",
+    title: "Toyin Tofade's calling: To be a leader of leaders",
+    link: "https://www.bizjournals.com/albany/news/2022/11/30/toyin-tofade-albany-college-of-pharmacy.html",
   },
-  { 
-    outlet: "Pharma News Online", 
-    title: "Toyin Tofade: Highflying Record Breaker in Pharmacy Leadership",
-    link: "https://www.pharmanewsonline.com/toyin-tofade-highflying-record-breaker-in-pharmacy-leadership/"
+  {
+    outlet: "Capital Region Chamber",
+    title: "New President Selected at Albany College of Pharmacy and Health Sciences",
+    link: "https://capitalregionchamber.com/news/new-president-selected-at-albany-college-of-pharmacy-and-health-sciences/",
   },
-  { 
-    outlet: "Premium Times Nigeria", 
-    title: "Nigerian woman becomes first Black female president of U.S. college",
-    link: "https://www.premiumtimesng.com/news/headlines/522411-nigerian-woman-becomes-first-black-female-president-of-u-s-college.html"
+  {
+    outlet: "Albany College of Pharmacy and Health Sciences News",
+    title: "Partnerships Extend College’s Reach",
+    link: "https://www.acphs.edu/news/partnerships-extend-colleges-reach/?fbclid=IwY2xjawQ3tZ5leHRuA2FlbQIxMABicmlkETFWREp2M2tmRUsxc2YzcmYwc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHkZR8b2zcK6mT7AF2MlLNAVq8bC04-h3J9_VVpn6R6btG3iWeJT9hulirQYg_aem_JGcqi6Evs3DbzPlWPQLGuA",
   },
+  {
+  outlet: "Connect Nigeria",
+  title: "Nigerian Scholar, Toyin Tofade, Emerges First Black Female President In American College",
+  link: "https://articles.connectnigeria.com/nigerian-scholar-toyin-tofade-emerges-first-black-female-president-in-american-college/",
+  },
+
 ]
 
 const podcasts = [
-  { 
-    name: "Unscripted (ACPHS Podcast)", 
-    episode: "Servant Leadership", 
+  {
+    name: "Unscripted",
+    episode: "Servant Leadership and the Importance of Sponsorship",
     platform: "Apple Podcasts",
-    link: "https://podcasts.apple.com/us/podcast/unscripted/id1573515282"
+    link: "https://podcasts.apple.com/us/podcast/50-toyin-tofade-ms-pharmd-bcps-cpcc-ffip-servant-leadership/id1578805977?i=1000607586023",
   },
-  { 
-    name: "WHUR: The Journey", 
-    episode: "Growing a Pharmacy Program on a Global Stage",
-    link: "https://whur.com/"
+  {
+    name: "Visionary MD",
+    episode: "Mentorship across disciplines with President Toyin Tofade",
+    platform: "Apple Podcasts",
+    link: "https://podcasts.apple.com/us/podcast/mentorship-across-disciplines-with-president-toyin/id1700557468?i=1000656643905",
   },
-  { 
-    name: "Visionary MD", 
-    episode: "Mentorship Across Disciplines",
-    link: "#"
+  {
+    name: "Center for Women, Gender and Global Leadership",
+    episode: "Women in Leadership: Dean Toyin Tofade",
+    link: "https://www.youtube.com/watch?v=DTlmqEF8isY",
   },
-  { 
-    name: "WAMC Public Radio", 
-    episode: "Interviews on pharmacy education and ACPHS leadership",
-    link: "https://www.wamc.org/"
+    {
+    name: "International Pharmaceutical Federation",
+    episode: "Shaping the future of pharmacy education",
+    link: "https://www.youtube.com/watch?v=msJWBGyyf28",
   },
 ]
 
@@ -125,11 +131,8 @@ export default function MediaPage() {
                       <p className="text-white font-serif text-lg">
                         {item.title}
                       </p>
-                      {item.years && (
-                        <p className="text-[#B5D4F4] text-sm mt-1">{item.years}</p>
-                      )}
                     </div>
-                    <ArrowRight className="w-5 h-5 text-[#C6993A] flex-shrink-0 opacity-0 group-hover:opacity-100 transition-opacity" />
+                    <ArrowRight className="w-5 h-5 text-[#C6993A]  transition-opacity" />
                   </div>
                 </Link>
               </AnimatedSection>
@@ -174,7 +177,7 @@ export default function MediaPage() {
                         <p className="text-[#5C4A2A] text-sm mt-1">{podcast.platform}</p>
                       )}
                     </div>
-                    <ArrowRight className="w-5 h-5 text-[#C6993A] flex-shrink-0 opacity-0 group-hover:opacity-100 transition-opacity" />
+                    <ArrowRight className="w-5 h-5 text-[#C6993A] transition-opacity" />
                   </div>
                 </Link>
               </AnimatedSection>

@@ -38,8 +38,8 @@ export default function GlobalWomenLeadersPage() {
             <AnimatedSection animation="fade-in" delay={200} className="relative">
               <div className="relative aspect-[4/3] max-w-lg mx-auto">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/SF_PBweb-6-q0P0vSj5erXtzppvPSDIdY1KFzPSrZ.jpg"
-                  alt="Dr. Toyin Tofade with her husband Pastor Bisi Tofade"
+                  src="/congregation.jpeg"
+                  alt="Dr. Tofade and Mentee"
                   fill
                   className="object-cover rounded-xl shadow-2xl"
                   priority
@@ -113,27 +113,17 @@ export default function GlobalWomenLeadersPage() {
         </div>
       </section>
 
-      {/* Quote Strip */}
-      <section className="py-16 bg-[#3D1854]">
-        <AnimatedSection className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <Quote className="w-10 h-10 text-[#C6993A] mx-auto mb-4 rotate-180" />
-          <blockquote className="font-serif text-xl md:text-2xl text-white leading-relaxed">
-            When one woman rises, she creates room for others.
-          </blockquote>
-        </AnimatedSection>
-      </section>
-
-      {/* Image Gallery */}
+            {/* Image Gallery */}
       <section className="py-20 bg-[#F5F0E8]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <AnimatedSection className="text-center mb-12">
+          {/* <AnimatedSection className="text-center mb-12">
             <span className="text-[#C6993A] font-semibold text-sm uppercase tracking-wider">
               Empowering Women
             </span>
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-[#2C1A0E] mt-4">
               Leadership in Action
             </h2>
-          </AnimatedSection>
+          </AnimatedSection> */}
 
           <div className="grid md:grid-cols-3 gap-6">
             <AnimatedSection animation="fade-in-up" delay={0}>
@@ -152,6 +142,7 @@ export default function GlobalWomenLeadersPage() {
                   src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/SF_PBweb-15-luDDbRcem9lez0PG8ZFVAkCAYWIZOQ.jpg"
                   alt="Dr. Tofade in prayer"
                   fill
+                  style={{objectPosition: "center 10%"}}
                   className="object-cover hover:scale-105 transition-transform duration-500"
                 />
               </div>
@@ -159,8 +150,8 @@ export default function GlobalWomenLeadersPage() {
             <AnimatedSection animation="fade-in-up" delay={200}>
               <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/SF_PBweb-21-58yMSIPq5DL84zHwbBJ6YshMVEdS5y.jpg"
-                  alt="Dr. Tofade and Pastor Bisi Tofade"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/width_1600-GkSLNYFMO55UbJlTSsTX5O02hp4dCB.jpeg"
+                  alt="Dr. Tofade and Mentee"
                   fill
                   className="object-cover hover:scale-105 transition-transform duration-500"
                 />
@@ -170,8 +161,20 @@ export default function GlobalWomenLeadersPage() {
         </div>
       </section>
 
+      {/* Quote Strip */}
+      <section className="py-16 bg-[#3D1854]">
+        <AnimatedSection className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+          <Quote className="w-10 h-10 text-[#C6993A] mx-auto mb-4 rotate-180" />
+          <blockquote className="font-serif text-xl md:text-2xl text-white leading-relaxed">
+            When one woman rises, she creates room for others.
+          </blockquote>
+        </AnimatedSection>
+      </section>
+
+
+
       {/* Get Involved CTA */}
-      <section className="py-20 bg-[#0C3050]">
+      {/* <section className="py-20 bg-[#0C3050]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <AnimatedSection>
             <div className="w-16 h-16 rounded-full bg-[#C6993A] flex items-center justify-center mx-auto mb-6">
@@ -205,7 +208,7 @@ export default function GlobalWomenLeadersPage() {
             </div>
           </AnimatedSection>
         </div>
-      </section>
+      </section> */}
 
       <Footer />
     </main>

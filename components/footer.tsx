@@ -41,7 +41,7 @@ export function Footer() {
               </li>
               <li>
                 <Link href="/speaker-request" className="text-white/70 hover:text-[#FAC775] text-sm transition-colors">
-                  Book Dr. Tofade
+                  Speaker Request Form
                 </Link>
               </li>
             </ul>

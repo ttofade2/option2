@@ -12,7 +12,7 @@ const navLinks = [
   { href: "/publications", label: "Publications" },
   { href: "/media", label: "Media" },
   { href: "/global-women-leaders", label: "Global Women Leaders" },
-  { href: "/speaker-request", label: "Book Dr. Tofade" },
+  { href: "/speaker-request", label: "Speaker Request Form" },
 ]
 
 export function Navigation() {
@@ -57,7 +57,7 @@ export function Navigation() {
               href="/speaker-request"
               className="ml-4 px-5 py-2.5 bg-[#C6993A] hover:bg-[#FAC775] text-[#2C1A0E] font-semibold text-sm rounded-md transition-colors duration-200"
             >
-              Book Dr. Tofade
+              Speaker Request Form
             </Link>
           </div>
 

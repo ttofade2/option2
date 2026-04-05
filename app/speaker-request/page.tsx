@@ -6,7 +6,7 @@ import Image from "next/image"
 import { Mic, BookOpen, Heart, Users, GraduationCap, Stethoscope, Church, Sparkles } from "lucide-react"
 
 export const metadata = {
-  title: "Book Dr. Tofade to Speak | Dr. Toyin Tofade",
+  title: "Request Dr. Tofade to Speak | Dr. Toyin Tofade",
   description: "Invite Dr. Toyin Tofade to speak at your conference, convocation, leadership summit, or institutional event.",
 }
 
