@@ -26,8 +26,8 @@ const stats = [
   },
   {
     icon: Award,
-    value: "3",
-    label: "Consecutive Power 50 Years",
+    value: "3X",
+    label: "Albany Business Review Power 50",
   },
   {
     icon: Heart,

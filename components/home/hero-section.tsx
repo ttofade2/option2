@@ -23,10 +23,9 @@ export function HeroSection() {
           </AnimatedSection>
 
           <AnimatedSection animation="fade-in-up" delay={100}>
-            <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-              Called to heal.<br />
-              Called to lead.<br />
-              Called to serve.
+            <h1 className="font-serif text-5xl md:text-5xl lg:text-5xl font-bold leading-tight mb-6">
+              Leading with purpose.<br />
+              Serving with conviction.<br />
             </h1>
           </AnimatedSection>
 
