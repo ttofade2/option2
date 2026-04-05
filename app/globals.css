@@ -1,0 +1,191 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* Presidential Navy - Academic sections */
+  --navy: #0C3050;
+  --navy-light: #E6F1FB;
+  --navy-accent: #B5D4F4;
+  
+  /* Deep Plum - Faith sections */
+  --plum: #3D1854;
+  --plum-light: #F0E8F8;
+  --plum-accent: #C9A0E8;
+  
+  /* Warm Cream - Backgrounds */
+  --cream: #F5F0E8;
+  --cream-card: #EDE5D4;
+  --cream-text: #5C4A2A;
+  --cream-header: #2C1A0E;
+  
+  /* Accent Gold */
+  --gold: #C6993A;
+  --gold-light: #FAC775;
+  
+  /* Base design tokens */
+  --background: #F5F0E8;
+  --foreground: #2C1A0E;
+  --card: #EDE5D4;
+  --card-foreground: #5C4A2A;
+  --popover: #EDE5D4;
+  --popover-foreground: #5C4A2A;
+  --primary: #0C3050;
+  --primary-foreground: #F5F0E8;
+  --secondary: #3D1854;
+  --secondary-foreground: #F5F0E8;
+  --muted: #E6F1FB;
+  --muted-foreground: #5C4A2A;
+  --accent: #C6993A;
+  --accent-foreground: #2C1A0E;
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: oklch(0.577 0.245 27.325);
+  --border: #EDE5D4;
+  --input: #EDE5D4;
+  --ring: #C6993A;
+  --radius: 0.625rem;
+}
+
+@theme inline {
+  --font-sans: 'Open Sans', 'Open Sans Fallback', sans-serif;
+  --font-serif: 'Cardo', 'Cardo Fallback', serif;
+  --font-mono: 'Geist Mono', 'Geist Mono Fallback';
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  
+  /* Custom colors for the palette */
+  --color-navy: var(--navy);
+  --color-navy-light: var(--navy-light);
+  --color-navy-accent: var(--navy-accent);
+  --color-plum: var(--plum);
+  --color-plum-light: var(--plum-light);
+  --color-plum-accent: var(--plum-accent);
+  --color-cream: var(--cream);
+  --color-cream-card: var(--cream-card);
+  --color-cream-text: var(--cream-text);
+  --color-cream-header: var(--cream-header);
+  --color-gold: var(--gold);
+  --color-gold-light: var(--gold-light);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Scroll animations */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+}
+
+.animate-slide-in-left {
+  animation: slideInLeft 0.8s ease-out forwards;
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.8s ease-out forwards;
+}
+
+/* Stagger delays */
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+.delay-400 { animation-delay: 400ms; }
+.delay-500 { animation-delay: 500ms; }
+.delay-600 { animation-delay: 600ms; }
+
+/* Initially hidden for animation */
+.animate-on-scroll {
+  opacity: 0;
+}
+
+.animate-on-scroll.is-visible {
+  opacity: 1;
+}
+
+/* Gold accent bar for pull quotes */
+.gold-bar {
+  border-left: 4px solid var(--gold);
+}
+
+/* Hero gradient */
+.hero-gradient {
+  background: linear-gradient(135deg, #0C3050 0%, #3D1854 100%);
+}
+
+
