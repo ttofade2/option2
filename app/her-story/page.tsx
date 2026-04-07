@@ -120,14 +120,11 @@ export default function HerStoryPage() {
               After her training, Dr. Tofade joined UNC hospitals as a clinical pharmacist, eventually rising to Clinical Specialist in the general medicine service. She then took the helm as Director of Pharmacotherapy Services at the Wake Area Health Education Center (AHEC), where she served from 2002 to 2011, shaping the next generation of pharmacy practitioners across North Carolina.
          
               </p>
-               <p className="text-[#5C4A2A] leading-relaxed">
-              During these years, alongside her professional life, she and her husband Alfred also planted roots in Durham&apos;s faith community. Together, they helped build Jubilee Christian Church International, a congregation that would grow into a vibrant, multinational community of worship. 
-            </p>
               </div>
               <div className="relative aspect-[4/4] rounded-xl overflow-hidden shadow-lg">
                 <Image
                   src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/SF_PBweb-21-58yMSIPq5DL84zHwbBJ6YshMVEdS5y.jpg"
-                  alt="Dr. Tofade and Pastor Bisi Tofade"
+                  alt="Dr. Tofade and Bisi Tofade"
                   fill
                   className="object-cover"
                 />

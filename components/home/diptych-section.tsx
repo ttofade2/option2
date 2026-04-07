@@ -11,14 +11,45 @@ export function DiptychSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <AnimatedSection className="text-center mb-16">
           <span className="text-[#C6993A] font-semibold text-sm uppercase tracking-wider">
-            Two Callings, One Frame
           </span>
           <h2 className="font-serif text-3xl md:text-4xl font-bold text-[#2C1A0E] mt-4">
-            A Life of Dual Purpose
           </h2>
         </AnimatedSection>
 
         <div className="grid md:grid-cols-2 gap-8">
+          {/* Pull Quote */}
+          <AnimatedSection animation="slide-in-right">
+            <div className=" rounded-2xl overflow-hidden  ">
+
+          <AnimatedSection animation="slide-in-left" className="md:col-span-3 pt-8">
+            <div className="gold-bar pt-8 pl-8">
+              <blockquote className="font-serif text-2xl md:text-3xl lg:text-4xl text-[#2C1A0E] leading-relaxed">
+                There are so many ways to achieve our goals. If the idea of serving a higher purpose appeals to you, I invite you to join me on this journey. Together we&apos;ll work to solve problems that change the world.
+              </blockquote>
+            </div>
+            <p className="mt-6 text-[#5C4A2A] pl-8">
+              Dr. Toyin Tofade
+            </p>
+          </AnimatedSection>
+                  {/* CTA Buttons */}
+        <AnimatedSection animation="fade-in-up" delay={300} className="flex flex-wrap justify-center gap-4 mt-12">
+          <Link
+            href="/her-story"
+            className="px-8 py-3 bg-[#0C3050] hover:bg-[#0C3050]/90 text-white font-semibold rounded-md transition-colors duration-200"
+          >
+            Her Story
+          </Link>
+          <Link
+            href="/speaker-request"
+            className="px-8 py-3 bg-[#C6993A] hover:bg-[#FAC775] text-[#2C1A0E] font-semibold rounded-md transition-colors duration-200"
+          >
+            Request Dr. Tofade to Speak
+          </Link>
+        </AnimatedSection>
+            </div>
+          </AnimatedSection>
+
+
           {/* Academic Leadership Card */}
           <AnimatedSection animation="slide-in-left">
             <div className="bg-[#0C3050] rounded-2xl overflow-hidden shadow-xl h-full">
@@ -58,63 +89,9 @@ export function DiptychSection() {
               </div>
             </div>
           </AnimatedSection>
-
-          {/* Pastoral Calling Card */}
-          <AnimatedSection animation="slide-in-right">
-            <div className="bg-[#3D1854] rounded-2xl overflow-hidden shadow-xl h-full">
-              <div className="relative aspect-[16/10]">
-                <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/width_1600%20%282%29-M7EJydLtTHa07mXRfg16RW7FSjl53E.jpeg"
-                  alt="Dr. Tofade speaking at Jubilee Christian Church"
-                  fill
-                  className="object-cover"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-[#3D1854] to-transparent" />
-              </div>
-              <div className="p-8">
-                <div className="flex items-center gap-3 mb-4">
-                  <div className="w-12 h-12 rounded-full bg-[#F0E8F8] flex items-center justify-center">
-                    <Church className="w-6 h-6 text-[#3D1854]" />
-                  </div>
-                  <span className="text-[#FAC775] font-semibold text-sm uppercase tracking-wider">
-                    Pastoral Calling
-                  </span>
-                </div>
-                <h3 className="font-serif text-2xl font-bold text-white mb-4">
-                  Raising People Into Their Calling
-                </h3>
-                <p className="text-white/80 leading-relaxed mb-6">
-                  As Senior Pastor of Jubilee Christian Church International, a global community with presence across North America, Africa, Europe, and the Caribbean, Dr. Tofade serves alongside her husband, Pastor Bisi Tofade, with the same commitment to raising people into the fullness of who they are called to be.
-                </p>
-                <Link
-                  href="/her-story"
-                  className="inline-flex items-center text-[#C6993A] hover:text-[#FAC775] font-semibold transition-colors"
-                >
-                  Read Her Story
-                  <svg className="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                  </svg>
-                </Link>
-              </div>
-            </div>
-          </AnimatedSection>
         </div>
 
-        {/* CTA Buttons */}
-        <AnimatedSection animation="fade-in-up" delay={300} className="flex flex-wrap justify-center gap-4 mt-12">
-          <Link
-            href="/her-story"
-            className="px-8 py-3 bg-[#0C3050] hover:bg-[#0C3050]/90 text-white font-semibold rounded-md transition-colors duration-200"
-          >
-            Her Story
-          </Link>
-          <Link
-            href="/speaker-request"
-            className="px-8 py-3 bg-[#C6993A] hover:bg-[#FAC775] text-[#2C1A0E] font-semibold rounded-md transition-colors duration-200"
-          >
-            Request Dr. Tofade to Speak
-          </Link>
-        </AnimatedSection>
+
       </div>
     </section>
   )

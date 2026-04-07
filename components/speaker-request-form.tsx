@@ -168,7 +168,6 @@ export function SpeakerRequestForm() {
             <option value="workshop">Workshop</option>
             <option value="commencement">Commencement Speech</option>
             <option value="fireside">Fireside Chat</option>
-            <option value="sermon">Sermon/Ministry Message</option>
             <option value="other">Other</option>
           </select>
         </div>
@@ -187,12 +186,9 @@ export function SpeakerRequestForm() {
             <option value="">Select topic</option>
             <option value="higher-ed-leadership">Transformational leadership in higher education</option>
             <option value="health-equity">Health equity and the future of healthcare</option>
-            <option value="faith-vocation">Faith and vocation</option>
-            <option value="dei">Diversity, equity, and inclusion</option>
             <option value="women-leadership">Women in leadership</option>
             <option value="pharmacy-leadership">Pharmacy leadership</option>
             <option value="mentorship">Mentorship and career development</option>
-            <option value="ministry">Ministry and faith-based topics</option>
             <option value="other">Other</option>
           </select>
         </div>

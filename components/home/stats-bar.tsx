@@ -17,7 +17,7 @@ const stats = [
   {
     icon: TrendingUp,
     value: "35%",
-    label: "Increase in Student Deposits",
+    label: "Increase in Student Deposits in 2024",
   },
   {
     icon: Globe,
@@ -29,11 +29,7 @@ const stats = [
     value: "3X",
     label: "Albany Business Review Power 50",
   },
-  {
-    icon: Heart,
-    value: "25+",
-    label: "Years in Ministry",
-  },
+
 ]
 
 export function StatsBar() {

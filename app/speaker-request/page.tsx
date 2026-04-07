@@ -13,10 +13,7 @@ export const metadata = {
 const speakingTopics = [
   { icon: GraduationCap, title: "Transformational leadership in higher education" },
   { icon: Stethoscope, title: "Health equity, pharmacy practice, and the future of healthcare" },
-  { icon: Church, title: "Faith and vocation: leading with purpose across two callings" },
-  { icon: Users, title: "Diversity, equity, and inclusion in academic institutions" },
   { icon: Sparkles, title: "Women in leadership: breaking barriers and building legacies" },
-  { icon: Heart, title: "The kingdom wife and kingdom leader: lessons from scripture and the boardroom" },
   { icon: BookOpen, title: "The pharmacist as a leader: from clinical practice to the C-suite" },
   { icon: Mic, title: "Mentorship, community, and the architecture of a meaningful career" },
 ]

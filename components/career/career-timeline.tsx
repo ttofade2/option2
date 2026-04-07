@@ -23,15 +23,6 @@ const timelineItems = [
     color: "navy",
   },
   {
-    period: "2000 - Present",
-    title: "Cofounder & Senior Pastor",
-    organization: "Jubilee Christian Church Intl Chapel of Victory",
-    description: "Cofounded the North Carolina branch of Jubilee Christian Church Intl alongside her husband, Dr. Alfred Bisi Tofade, which has branches across North America, Africa, and Europe.",
-    icon: Church,
-    side: "left",
-    color: "plum",
-  },
-  {
     period: "2002 - 2011",
     title: "Director, Pharmacotherapy Services",
     organization: "Wake AHEC, Raleigh, NC",

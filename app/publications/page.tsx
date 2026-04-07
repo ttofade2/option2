@@ -1,13 +1,12 @@
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { AnimatedSection } from "@/components/animated-section"
-import { BookOpen, ExternalLink, FileText } from "lucide-react"
+import { ExternalLink, FileText } from "lucide-react"
 import Link from "next/link"
-import Image from "next/image"
 
 export const metadata = {
   title: "Publications | Dr. Toyin Tofade",
-  description: "Academic publications and books by Dr. Toyin Tofade on pharmacy practice, leadership, faith, and marriage.",
+  description: "Academic publications by Professor Toyin Tofade on pharmacy practice and leadership",
 }
 
 const publications = [
@@ -67,23 +66,6 @@ const publications = [
   },
 ]
 
-const books = [
-  {
-    title: "The Kingdom Wife: Essentials for Success in Marriage",
-    description: "Co-authored with Pastor Bisi Tofade. A practical and spiritually grounded guide to building a marriage that honors God and serves as a foundation for the life you are called to build together.",
-    link: "https://a.co/d/078VJEar",
-  },
-  {
-    title: "Prayers to Go: Simple & Powerful Prayers for Challenging Times",
-    description: "Co-authored with Pastor Bisi Tofade. A collection of direct, practical prayers for the moments of life that require more than we can manage alone. Designed for busy leaders who need to stay anchored.",
-    link: "https://a.co/d/0awdxuC0",
-  },
-  {
-    title: "Practical Outlines for Success in Marriage",
-    description: "Co-authored with Pastor Bisi Tofade. Packed with gripping biblical insights and unforgettable modern stories, it&apos;s not just about finding help, it&apos;s about becoming help.",
-    link: "https://a.co/d/08BSanVQ",
-  },
-]
 
 export default function PublicationsPage() {
   return (
@@ -104,7 +86,6 @@ export default function PublicationsPage() {
               Scholarship in Print
             </h1>
             <p className="text-xl text-white/90 leading-relaxed">
-              Dr. Tofade&apos;s published work spans the full arc of her calling, from peer-reviewed pharmacy research to books on faith, marriage, and the spiritual dimensions of leadership.
             </p>
           </AnimatedSection>
         </div>
@@ -167,55 +148,6 @@ export default function PublicationsPage() {
               <ExternalLink className="w-4 h-4" />
             </Link>
           </AnimatedSection>
-        </div>
-      </section>
-
-      {/* Books */}
-      <section className="py-20 bg-[#EDE5D4]">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
-          <AnimatedSection className="text-center mb-12">
-            <span className="text-[#3D1854] font-semibold text-sm uppercase tracking-wider">
-              Faith & Leadership
-            </span>
-            <h2 className="font-serif text-3xl md:text-4xl font-bold text-[#2C1A0E] mt-4">
-              Books
-            </h2>
-          </AnimatedSection>
-
-          <div className="grid md:grid-cols-3 gap-8">
-            {books.map((book, index) => (
-              <AnimatedSection key={index} animation="fade-in-up" delay={index * 100}>
-                <div className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow h-full flex flex-col">
-                  {/* Book Cover Placeholder */}
-                  <div className="aspect-[3/4] bg-gradient-to-br from-[#3D1854] to-[#0C3050] flex items-center justify-center p-8">
-                    <div className="text-center">
-                      <BookOpen className="w-16 h-16 text-[#C6993A] mx-auto mb-4" />
-                      <p className="font-serif text-lg text-white font-bold leading-tight">
-                        {book.title}
-                      </p>
-                    </div>
-                  </div>
-                  <div className="p-6 flex-1 flex flex-col">
-                    <h3 className="font-serif text-lg font-bold text-[#2C1A0E] mb-2">
-                      {book.title}
-                    </h3>
-                    <p className="text-[#5C4A2A] text-sm leading-relaxed mb-4 flex-1">
-                      {book.description}
-                    </p>
-                    <Link
-                      href={book.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 text-[#C6993A] hover:text-[#C6993A]/80 font-semibold transition-colors text-sm"
-                    >
-                      Buy on Amazon
-                      <ExternalLink className="w-4 h-4" />
-                    </Link>
-                  </div>
-                </div>
-              </AnimatedSection>
-            ))}
-          </div>
         </div>
       </section>
 

@@ -18,7 +18,7 @@ export function HeroSection() {
         <div className="text-white">
           <AnimatedSection animation="fade-in-up">
             <p className="text-[#FAC775] font-semibold text-sm uppercase tracking-wider mb-4">
-              College President &middot; Senior Pastor &middot; Pharmacist &middot; Author 
+              College President &middot; Executive Coach &middot; Pharmacist &middot; Author 
             </p>
           </AnimatedSection>
 
@@ -31,7 +31,7 @@ export function HeroSection() {
 
           <AnimatedSection animation="fade-in-up" delay={200}>
             <p className="text-xl text-white/90 leading-relaxed mb-6">
-              Dr. Toyin Tofade is a visionary leader at the intersection of healthcare, higher education, and faith, equipping institutions and individuals to lead with excellence and purpose.
+              Dr. Toyin Tofade is a visionary leader at the intersection of healthcare and higher education, equipping institutions and individuals to lead with excellence and purpose.
             </p>
           </AnimatedSection>
 
@@ -64,7 +64,7 @@ export function HeroSection() {
           <div className="relative aspect-[4/5] max-w-md mx-auto lg:max-w-none">
             <div className="absolute inset-0 bg-gradient-to-t from-[#0C3050]/50 to-transparent rounded-2xl z-10" />
             <Image
-              src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/SF_PBweb-25-Ceu9iO8TFsrFeF3Ad3troZ6LR77Y7g.jpg"
+              src="/option2/gray.jpg"
               alt="Dr. Toyin Tofade - Professional Portrait"
               fill
               className="object-cover rounded-2xl shadow-2xl"

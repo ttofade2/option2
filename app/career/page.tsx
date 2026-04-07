@@ -59,7 +59,7 @@ export default function CareerPage() {
         <AnimatedSection className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <Quote className="w-10 h-10 text-[#C6993A] mx-auto mb-4 rotate-180" />
           <blockquote className="font-serif text-xl md:text-2xl text-white leading-relaxed mb-4">
-            I am grateful to God for this new opportunity...Today, I stand before you, not as an individual, but as a representative of a community that has chosen to place its trust in me... As the first Black female president of this College, I am acutely aware of the historic significance of this moment.
+            Today, I stand before you, not as an individual, but as a representative of a community that has chosen to place its trust in me... As the first Black female president of this College, I am acutely aware of the historic significance of this moment.
           </blockquote>
         </AnimatedSection>
       </section>

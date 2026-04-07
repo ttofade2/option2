@@ -68,11 +68,11 @@ const podcasts = [
   },
 ]
 
-const sermons = [
-  { id: "6aMvNuFESwg", title: "Ministry Message" },
-  { id: "mWa5A5U-eH4", title: "Faith & Leadership" },
-  { id: "CcoRprZ4UB4", title: "Spiritual Guidance" },
-]
+// const sermons = [
+//   { id: "6aMvNuFESwg", title: "Ministry Message" },
+//   { id: "mWa5A5U-eH4", title: "Faith & Leadership" },
+//   { id: "CcoRprZ4UB4", title: "Spiritual Guidance" },
+// ]
 
 export default function MediaPage() {
   return (
@@ -93,7 +93,7 @@ export default function MediaPage() {
               In the Spotlight
             </h1>
             <p className="text-xl text-white/90 leading-relaxed">
-              Press coverage, podcast appearances, and ministry messages featuring Dr. Tofade&apos;s insights on leadership, healthcare, and faith.
+              Press coverage and podcast appearances featuring Dr. Tofade&apos;s insights on leadership, mentorship, and healthcare.
             </p>
           </AnimatedSection>
         </div>
@@ -187,7 +187,7 @@ export default function MediaPage() {
       </section>
 
       {/* Sermons */}
-      <section className="py-20 bg-[#3D1854]">
+      {/* <section className="py-20 bg-[#3D1854]">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="text-center mb-12">
             <span className="text-[#FAC775] font-semibold text-sm uppercase tracking-wider">
@@ -232,7 +232,7 @@ export default function MediaPage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       <Footer />
     </main>

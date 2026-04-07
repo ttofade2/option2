@@ -119,7 +119,7 @@ export default function ImpactPage() {
                 A Global Commitment to Health Access
               </h2>
               <p className="text-white/80 leading-relaxed mb-4">
-                Dr. Tofade has served on national boards including the Accreditation Council for Pharmacy Education, the Board of Pharmacy Specialties, and multiple AACP diversity and inclusion task forces.
+                Dr. Tofade has served on national boards including the Accreditation Council for Pharmacy Education, the Board of Pharmacy Specialties, and more.
               </p>
               <p className="text-white/80 leading-relaxed">
                 As FIP Academic Pharmacy Section President, she has shaped pharmacy education globally, with a particular commitment to ensuring that countries with the greatest health needs have access to the most prepared practitioners.

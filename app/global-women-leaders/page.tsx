@@ -77,7 +77,7 @@ export default function GlobalWomenLeadersPage() {
                   Mission
                 </h3>
                 <p className="text-[#5C4A2A] leading-relaxed">
-                  To inspire and train women internationally to maximize their leadership potential across academic institutions, healthcare systems, faith communities, and beyond.
+                  To inspire and train women internationally to maximize their leadership potential across academic institutions, healthcare systems, and beyond.
                 </p>
               </div>
             </AnimatedSection>
@@ -91,7 +91,7 @@ export default function GlobalWomenLeadersPage() {
                   What We Believe
                 </h3>
                 <p className="text-[#5C4A2A] leading-relaxed">
-                  We believe leadership is a calling, not a credential. We believe that when one woman rises, she creates room for others. We believe that the most powerful leaders are those who lead from a place of service, faith, and unshakeable purpose.
+                  We believe leadership is a calling, not a credential. We believe that when one woman rises, she creates room for others. We believe that the most powerful leaders are those who lead from a place of service and unshakeable purpose.
                 </p>
               </div>
             </AnimatedSection>
@@ -105,7 +105,7 @@ export default function GlobalWomenLeadersPage() {
                   Who We Serve
                 </h3>
                 <p className="text-[#5C4A2A] leading-relaxed">
-                  Women in healthcare, academia, ministry, and public life at every stage of their journey. First-generation professionals stepping into new authority. Established leaders who want to pour into the next generation. Faith communities building cultures of women&apos;s leadership.
+                  Women in healthcare, academia, and public life at every stage of their journey. First-generation professionals stepping into new authority. Established leaders who want to pour into the next generation.
                 </p>
               </div>
             </AnimatedSection>

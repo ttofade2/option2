@@ -15,9 +15,9 @@ const openSans = Open_Sans({
 })
 
 export const metadata: Metadata = {
-  title: 'Dr. Toyin Tofade | College President, Senior Pastor, Global Leader',
-  description: 'Dr. Toyin Tofade is a visionary leader at the intersection of healthcare, higher education, and faith. 10th President of Albany College of Pharmacy and Health Sciences. Senior Pastor. Author. Speaker.',
-  keywords: ['Dr. Toyin Tofade', 'ACPHS President', 'pharmacy education', 'healthcare leadership', 'women in leadership', 'faith leader', 'speaker'],
+  title: 'Dr. Toyin Tofade | College President, Global Leader',
+  description: 'Dr. Toyin Tofade is a visionary leader at the intersection of healthcare and higher education. 10th President of Albany College of Pharmacy and Health Sciences. Author. Speaker.',
+  keywords: ['Dr. Toyin Tofade', 'ACPHS President', 'pharmacy education', 'healthcare leadership', 'women in leadership', 'executive coach', 'speaker'],
   icons: {
     icon: [
       {

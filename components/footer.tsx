@@ -10,8 +10,8 @@ export function Footer() {
           <div>
             <h3 className="font-serif text-2xl font-bold mb-4">Dr. Toyin Tofade</h3>
             <p className="text-white/70 text-sm leading-relaxed">
-              College President. Senior Pastor. Author. Global Women&apos;s Leader. 
-              Called to heal. Called to lead. Called to serve.
+              College President. Author. Global Women&apos;s Leader. 
+              Called to lead. Called to serve.
             </p>
           </div>
 
