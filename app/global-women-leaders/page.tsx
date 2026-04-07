@@ -38,7 +38,7 @@ export default function GlobalWomenLeadersPage() {
             <AnimatedSection animation="fade-in" delay={200} className="relative">
               <div className="relative aspect-[4/3] max-w-lg mx-auto">
                 <Image
-                  src="/option2/congregation.jpeg"
+                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/width_1600-GkSLNYFMO55UbJlTSsTX5O02hp4dCB.jpeg"
                   alt="Dr. Tofade and Mentee"
                   fill
                   className="object-cover rounded-xl shadow-2xl"
@@ -107,54 +107,6 @@ export default function GlobalWomenLeadersPage() {
                 <p className="text-[#5C4A2A] leading-relaxed">
                   Women in healthcare, academia, and public life at every stage of their journey. First-generation professionals stepping into new authority. Established leaders who want to pour into the next generation.
                 </p>
-              </div>
-            </AnimatedSection>
-          </div>
-        </div>
-      </section>
-
-            {/* Image Gallery */}
-      <section className="py-20 bg-[#F5F0E8]">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          {/* <AnimatedSection className="text-center mb-12">
-            <span className="text-[#C6993A] font-semibold text-sm uppercase tracking-wider">
-              Empowering Women
-            </span>
-            <h2 className="font-serif text-3xl md:text-4xl font-bold text-[#2C1A0E] mt-4">
-              Leadership in Action
-            </h2>
-          </AnimatedSection> */}
-
-          <div className="grid md:grid-cols-3 gap-6">
-            <AnimatedSection animation="fade-in-up" delay={0}>
-              <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-                <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/width_1600%20%283%29-MrWL2kr8LYyneLyEapdDnikecIkOoF.jpeg"
-                  alt="Dr. Tofade in worship"
-                  fill
-                  className="object-cover hover:scale-105 transition-transform duration-500"
-                />
-              </div>
-            </AnimatedSection>
-            <AnimatedSection animation="fade-in-up" delay={100}>
-              <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-                <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/SF_PBweb-15-luDDbRcem9lez0PG8ZFVAkCAYWIZOQ.jpg"
-                  alt="Dr. Tofade in prayer"
-                  fill
-                  style={{objectPosition: "center 10%"}}
-                  className="object-cover hover:scale-105 transition-transform duration-500"
-                />
-              </div>
-            </AnimatedSection>
-            <AnimatedSection animation="fade-in-up" delay={200}>
-              <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
-                <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/width_1600-GkSLNYFMO55UbJlTSsTX5O02hp4dCB.jpeg"
-                  alt="Dr. Tofade and Mentee"
-                  fill
-                  className="object-cover hover:scale-105 transition-transform duration-500"
-                />
               </div>
             </AnimatedSection>
           </div>

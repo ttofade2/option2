@@ -28,7 +28,7 @@ const timelineItems = [
     organization: "Wake AHEC, Raleigh, NC",
     description: "Led pharmacotherapy services across North Carolina Wake region. Named Wake AHEC Mentor of the Year (2008).",
     icon: Building2,
-    side: "right",
+    side: "left",
     color: "navy",
   },
   {
@@ -37,7 +37,7 @@ const timelineItems = [
     organization: "University of Maryland School of Pharmacy",
     description: "Served as Associate Professor then Assistant Dean of the Experiential Learning Program, overseeing clinical education across the state.",
     icon: GraduationCap,
-    side: "left",
+    side: "right",
     color: "navy",
   },
   {
@@ -46,7 +46,7 @@ const timelineItems = [
     organization: "Howard University College of Pharmacy",
     description: "Transformational leader at the nation preeminent HBCU pharmacy school. Enrollment nearly doubled; alumni giving rose 70%; 18 international partnerships established.",
     icon: Award,
-    side: "right",
+    side: "left",
     color: "navy",
   },
   {
@@ -55,7 +55,7 @@ const timelineItems = [
     organization: "Albany College of Pharmacy and Health Sciences",
     description: "The first Black woman elected president in ACPHS 141-year history. Approved seven new degree programs in 2024. Applications increased 19%, PharmD deposits increased 210%.",
     icon: Award,
-    side: "left",
+    side: "right",
     color: "gold",
   },
 ]

@@ -10,11 +10,6 @@ const stats = [
     label: "Research Citations",
   },
   {
-    icon: GraduationCap,
-    value: "7",
-    label: "New Academic Programs in 2024",
-  },
-  {
     icon: TrendingUp,
     value: "35%",
     label: "Increase in Student Deposits in 2024",
@@ -35,8 +30,8 @@ const stats = [
 export function StatsBar() {
   return (
     <section className="py-16 bg-[#0C3050]">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-5">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
           {stats.map((stat, index) => (
             <AnimatedSection
               key={stat.label}
