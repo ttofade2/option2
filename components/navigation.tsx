@@ -9,10 +9,10 @@ const navLinks = [
   { href: "/her-story", label: "Her Story" },
   { href: "/career", label: "Career" },
   { href: "/impact", label: "Impact" },
-  { href: "/publications", label: "Publications" },
-  { href: "/media", label: "Media" },
+  { href: "/publications-media", label: "Publications & Media" },
   { href: "/global-women-leaders", label: "Global Women Leaders" },
-  { href: "/speaker-request", label: "Speaker Request Form" },
+  { href: "/work-with-me", label: "Work With Me" },
+  { href: "/speaker-request", label: "Speaker Request" },
 ]
 
 export function Navigation() {
@@ -57,7 +57,7 @@ export function Navigation() {
               href="/speaker-request"
               className="ml-4 px-5 py-2.5 bg-[#C6993A] hover:bg-[#FAC775] text-[#2C1A0E] font-semibold text-sm rounded-md transition-colors duration-200"
             >
-              Speaker Request Form
+              Speaker Request
             </Link>
           </div>
 

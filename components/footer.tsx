@@ -40,8 +40,13 @@ export function Footer() {
                 </Link>
               </li>
               <li>
+                <Link href="/work-with-me" className="text-white/70 hover:text-[#FAC775] text-sm transition-colors">
+                  Work With Me
+                </Link>
+              </li>
+              <li>
                 <Link href="/speaker-request" className="text-white/70 hover:text-[#FAC775] text-sm transition-colors">
-                  Speaker Request Form
+                  Speaker Request
                 </Link>
               </li>
             </ul>
@@ -61,7 +66,7 @@ export function Footer() {
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
-                href="mailto:contact@toyintofade.com"
+                href="mailto:presidenttofade@gmail.com"
                 className="w-10 h-10 rounded-full bg-white/10 hover:bg-[#C6993A] flex items-center justify-center transition-colors"
                 aria-label="Email"
               >
