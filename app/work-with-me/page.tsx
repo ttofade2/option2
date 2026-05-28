@@ -23,24 +23,12 @@ const offerings = [
     ],
   },
   {
-    icon: Users,
-    title: "Emerging Leader Accelerator",
-    audience: "For directors and associate deans preparing for executive roles",
-    points: [
-      "Defining and communicating a clear leadership identity",
-      "Translating subject-matter expertise into institutional leadership",
-      "Building strategic relationships, sponsor networks, and executive presence",
-      "Navigating career transitions into senior academic or healthcare administration",
-    ],
-  },
-  {
     icon: Building2,
     title: "Organisational & Team Development",
     audience: "For leadership teams building alignment and high performance",
     points: [
       "Strategic planning facilitation for academic and healthcare institutions",
       "Team culture diagnostics, alignment workshops, and accreditation-ready cultures",
-      "DEI integration as institutional strategy rather than standalone initiative",
     ],
   },
   {
@@ -50,18 +38,6 @@ const offerings = [
     points: [
       "Institutional strategy, president/CEO evaluation, and health sciences sector expertise",
       "Strategic partnership and merger evaluation advisory",
-    ],
-  },
-  {
-    icon: Mic,
-    title: "Speaking & Leadership Facilitation",
-    audience: "For conferences, associations, and institutional events",
-    points: [
-      "Transformational leadership in higher education and healthcare",
-      "Health equity, pharmacy practice, and global health workforce development",
-      "Women in leadership: breaking barriers and building legacies",
-      "Leading through merger and institutional transformation",
-      "Mentorship, resilience, and the architecture of a meaningful career",
     ],
   },
 ]
@@ -87,7 +63,7 @@ export default function WorkWithMePage() {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection animation="fade-in-up" className="max-w-3xl">
             <span className="text-[#FAC775] font-semibold text-sm uppercase tracking-wider">
-              Executive Coaching & Advisory
+              Executive Coaching & Board Advisory
             </span>
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-white mt-4 mb-6">
               Work With Prof. Tofade
@@ -100,15 +76,12 @@ export default function WorkWithMePage() {
       </section>
 
       {/* Introduction */}
-      <section className="py-20 bg-[#F5F0E8]">
+      <section className="py-12 bg-[#F5F0E8]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection animation="fade-in-up">
             <div className="prose prose-lg max-w-none">
               <p className="text-[#5C4A2A] text-lg leading-relaxed mb-6">
-                Prof. Tofade is a Certified Professional Co-active Coach (CPCC) with over two decades of executive leadership experience across higher education, healthcare, and global policy. She has led institutional mergers, secured public-private partnerships, built high-performing teams across four institutions, and navigated the full complexity of senior academic and healthcare administration.
-              </p>
-              <p className="text-[#5C4A2A] text-lg leading-relaxed">
-                Her coaching practice is selective and draws directly from this experience. She works with a limited number of executives, emerging leaders, and organisations at a time — prioritising engagements where she can make a genuine and meaningful contribution.
+                Prof. Tofade is a Certified Professional Co-active Coach (CPCC) with over two decades of executive leadership experience across higher education, healthcare, and global policy. She has led an institutional merger, secured public-private partnerships, built high-performing teams across multiple institutions, and navigated the full complexity of senior academic and healthcare administration.
               </p>
             </div>
           </AnimatedSection>
@@ -116,7 +89,7 @@ export default function WorkWithMePage() {
       </section>
 
       {/* Who She Works With */}
-      <section className="py-16 bg-[#0C3050]">
+      {/* <section className="py-16 bg-[#0C3050]">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="text-center mb-10">
             <span className="text-[#FAC775] font-semibold text-sm uppercase tracking-wider">
@@ -138,15 +111,12 @@ export default function WorkWithMePage() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Offerings */}
-      <section className="py-20 bg-[#F5F0E8]">
+      <section className="pb-20 bg-[#F5F0E8]">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="text-center mb-12">
-            <span className="text-[#0C3050] font-semibold text-sm uppercase tracking-wider">
-              Services
-            </span>
             <h2 className="font-serif text-3xl md:text-4xl font-bold text-[#2C1A0E] mt-4">
               Offerings
             </h2>
@@ -192,7 +162,7 @@ export default function WorkWithMePage() {
               A Note on Availability
             </h3>
             <p className="text-[#5C4A2A] leading-relaxed">
-              Prof. Tofade maintains a selective coaching practice alongside her ongoing advisory commitments. Engagements are accepted on a limited basis to ensure depth and genuine impact. All enquiries are reviewed; her team responds within five business days.
+              Prof. Tofade maintains a selective coaching practice alongside her ongoing advisory commitments. Engagements are accepted on a limited basis to ensure depth and genuine impact.
             </p>
           </AnimatedSection>
         </div>

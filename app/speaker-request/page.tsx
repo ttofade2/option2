@@ -44,7 +44,7 @@ export default function SpeakerRequestPage() {
             <AnimatedSection animation="fade-in" delay={200} className="relative">
               <div className="relative aspect-[4/3] max-w-lg mx-auto">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/SF_PBweb-4-8nXBR8jqD0kyVNhC9Jc7NpIcqAOH69.jpg"
+                  src="/SF_PBweb-14.jpg"
                   alt="Dr. Toyin Tofade with her husband"
                   fill
                   className="object-cover rounded-xl shadow-2xl"

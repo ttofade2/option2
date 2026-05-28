@@ -123,7 +123,7 @@ export default function HerStoryPage() {
               </div>
               <div className="relative aspect-[4/4] rounded-xl overflow-hidden shadow-lg">
                 <Image
-                  src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/SF_PBweb-21-58yMSIPq5DL84zHwbBJ6YshMVEdS5y.jpg"
+                  src="/SF_PBweb-22.jpg"
                   alt="Dr. Tofade and Bisi Tofade"
                   fill
                   className="object-cover"
@@ -181,7 +181,7 @@ export default function HerStoryPage() {
           </AnimatedSection>
 
           {/* Albany */}
-          <AnimatedSection className="mb-16">
+          <AnimatedSection className="mb-3">
             <div className="grid md:grid-cols-2 gap-8 items-center mb-8">
               <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
                 <Image
@@ -200,28 +200,61 @@ export default function HerStoryPage() {
                 />
               </div>
             </div>
-            <h2 className="font-serif text-3xl font-bold text-[#2C1A0E] mb-6">
-              Making History in Albany
+            <h2 className="font-serif text-3xl font-bold text-[#2C1A0E] mb-3">
+              Making History and Building a University
             </h2>
             <p className="text-[#5C4A2A] leading-relaxed mb-4">
               On July 1, 2022, Dr. Toyin Tofade became the 10th President of Albany College of Pharmacy and Health Sciences and the first Black woman to hold that office in the college&apos;s 141-year history.
             </p>
             <p className="text-[#5C4A2A] leading-relaxed mb-4">
-              She did not arrive as a symbol. She arrived as a builder. Under her leadership, ACPHS launched its boldest strategic plan in a generation, introduced its first online academic portfolio, and approved seven new degree programs in a single year, the largest expansion in the institution&apos;s history. Applications rose 19%. PharmD first-year deposits surged 210%. Transfer admissions increased by more than 700%.
+  Under her leadership, ACPHS launched its boldest strategic plan in a generation, earned the Carnegie Research University classification (2025), introduced its first online academic portfolio, and approved seven new degree programs in a single year, the largest expansion in institutional history. Applications rose 19&#37;; PharmD deposits surged 210&#37;; transfer admissions grew more than 700&#37;.
+</p>
+            <p className="text-[#5C4A2A] leading-relaxed mb-4">
+  She deepened the college&apos;s economic footprint in the Capital Region: expanding the Stack Family Center for Biopharmaceutical Education and Training (CBET), backed by a &#36;1.75M Empire State Development grant and a &#36;1.9M FDA contract, cementing Albany as a biopharma workforce hub.
             </p>
+
+
             <p className="text-[#5C4A2A] leading-relaxed">
-              Global partnerships extended to India, the Philippines, Nigeria, Brazil, Indonesia, Taiwan, South Korea, and the Bahamas, and grew further.
-            </p>
+  In April 2025, she led the announcement of a historic merger with Russell Sage College, a merger of equals, that upon completion in Fall 2027 will create a comprehensive institution of approximately 4,000 students with combined assets of &#36;246 million and the broadest health professions curriculum in the Capital Region.
+</p>
           </AnimatedSection>
 
           {/* Final Quote */}
-          <AnimatedSection className="bg-[#3D1854] rounded-2xl p-8 md:p-12 text-center">
+
+           <AnimatedSection className="mb-4">
+            <div className="grid md:grid-cols-2 gap-8 items-center mb-8">
+
+            </div>
+            <h2 className="font-serif text-3xl font-bold text-[#2C1A0E] mb-6">
+            A Distinguished Conclusion and a New Chapter            </h2>
+            <p className="text-[#5C4A2A] leading-relaxed mb-4">
+On April 24, 2026, Prof. Tofade announced that she will conclude her presidential term on June 30, 2026 with the merger on track and the first phase of the transaction set to close June 1. She will continue as President Emeritus from July 1, 2026, supporting the transition as Russell Sage President Matthew Shaftel leads both institutions toward the combined university.            </p>
+            <p className="text-[#5C4A2A] leading-relaxed mb-4">
+ACPHS Board Chair Walter S. Borisenok said: "President Tofade has brought ACPHS through a historic chapter. The ACPHS Board of Trustees is extremely grateful for her leadership and service."
+            </p>
+            <p className="text-[#5C4A2A] leading-relaxed mb-4">
+In her message to the community she wrote: "It has been my honor to serve you as the 10th president of ACPHS. I am profoundly grateful to our students, my dedicated leadership team, and the entire ACPHS community for the collaborations that have brought us to this moment."
+            </p>
+
+            <p className="text-[#5C4A2A] leading-relaxed mb-3">
+As she turns toward her next chapter Prof. Tofade carries forward more than four years of institution-building, a 143-year legacy preserved, and a merger that will anchor health professions education in New York's Capital Region for decades.
+            </p>
+                          <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
+                <Image
+                  src="/merger.jpeg"
+                  alt="Dr. Tofade with Board of Trustees at inauguration"
+                  fill
+                  className="object-cover"
+                />
+              </div>
+          </AnimatedSection>
+
+                    <AnimatedSection className="bg-[#3D1854] rounded-2xl p-8 md:p-12 text-center">
             <Quote className="w-10 h-10 text-[#C6993A] mx-auto mb-4 rotate-180" />
             <blockquote className="font-serif text-xl md:text-2xl text-white leading-relaxed mb-4">
-              I am grateful to God for this new opportunity, and I look forward to serving the ACPHS community as president.
-            </blockquote>
+            Together, we will broaden horizons, expand opportunities, and empower our students to thrive.            </blockquote>
             <cite className="text-[#C9A0E8] text-sm not-italic">
-              Dr. Toyin Tofade, on her appointment as ACPHS president, March 2022
+              Prof. Toyin Tofade, on the ACPHS–Russell Sage merger, April 2025
             </cite>
           </AnimatedSection>
 

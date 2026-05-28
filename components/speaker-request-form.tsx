@@ -52,7 +52,7 @@ export function SpeakerRequestForm() {
           Thank You!
         </h3>
         <p className="text-[#5C4A2A]">
-          Your speaking request has been submitted. We will be in touch soon.
+          Your speaking request has been submitted.
         </p>
       </div>
     )
@@ -192,6 +192,20 @@ export function SpeakerRequestForm() {
             <option value="other">Other</option>
           </select>
         </div>
+
+          {/* Honorarium Range */}
+            <div>
+              <label htmlFor="honorarium" className="block text-sm font-semibold text-[#2C1A0E] mb-2">
+                Honorarium Range or Budget
+              </label>
+              <input
+                type="text"
+                id="honorarium"
+                name="honorarium"
+                className="w-full px-4 py-3 rounded-lg border border-[#EDE5D4] bg-[#F5F0E8] text-[#2C1A0E] focus:outline-none focus:ring-2 focus:ring-[#C6993A] transition-shadow"
+                placeholder="Your budget range"
+              />
+            </div>
 
         {/* Additional Notes */}
         <div>
