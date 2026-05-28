@@ -111,10 +111,8 @@ export function WorkWithMeForm() {
           >
             <option value="">Select type of engagement</option>
             <option value="executive-coaching">Executive Leadership Coaching</option>
-            <option value="emerging-leader">Emerging Leader Accelerator</option>
             <option value="organisational-development">Organisational & Team Development</option>
             <option value="board-advisory">Board Advisory & Governance</option>
-            <option value="speaking">Speaking & Leadership Facilitation</option>
             <option value="other">Other</option>
           </select>
         </div>

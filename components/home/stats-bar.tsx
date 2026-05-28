@@ -19,8 +19,8 @@ const stats = [
   },
   {
     icon: Globe,
-    value: "18",
-    label: "International Partnerships at Howard",
+    value: "6",
+    label: "Continents: International partnerships spanning every inhabited continent",
     year: "2021",
 
   },
