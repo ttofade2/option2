@@ -123,7 +123,7 @@ export default function HerStoryPage() {
               </div>
               <div className="relative aspect-[4/4] rounded-xl overflow-hidden shadow-lg">
                 <Image
-                  src="/SF_PBweb-22.jpg"
+                  src="/option2/SF_PBweb-22.jpg"
                   alt="Dr. Tofade and Bisi Tofade"
                   fill
                   className="object-cover"
@@ -241,7 +241,7 @@ As she turns toward her next chapter Prof. Tofade carries forward more than four
             </p>
                           <div className="relative aspect-[4/3] rounded-xl overflow-hidden shadow-lg">
                 <Image
-                  src="/merger.jpeg"
+                  src="/option2/merger.jpeg"
                   alt="Dr. Tofade with Board of Trustees at inauguration"
                   fill
                   className="object-cover"
