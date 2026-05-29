@@ -18,26 +18,26 @@ export function HeroSection() {
         <div className="text-white">
           <AnimatedSection animation="fade-in-up">
             <p className="text-[#FAC775] font-semibold text-sm uppercase tracking-wider mb-4">
-              President Emeritus &middot; Executive Coach &middot; Pharmacist &middot; Author 
+              College President &middot; Executive Coach &middot; Pharmacist &middot; Author 
             </p>
           </AnimatedSection>
 
           <AnimatedSection animation="fade-in-up" delay={100}>
             <h1 className="font-serif text-5xl md:text-5xl lg:text-5xl font-bold leading-tight mb-6">
-              Leading with vision.<br />
-              Serving with purpose.<br />
+              Leading with purpose.<br />
+              Serving with conviction.<br />
             </h1>
           </AnimatedSection>
 
           <AnimatedSection animation="fade-in-up" delay={200}>
             <p className="text-xl text-white/90 leading-relaxed mb-6">
-              Prof. Toyin Tofade is a visionary leader at the intersection of healthcare and higher education, equipping institutions and individuals to lead with excellence and purpose.
+              Dr. Toyin Tofade is a visionary leader at the intersection of healthcare and higher education, equipping institutions and individuals to lead with excellence and purpose.
             </p>
           </AnimatedSection>
 
           <AnimatedSection animation="fade-in-up" delay={300}>
             <p className="text-[#B5D4F4] text-lg mb-8">
-              10th President, Albany College of Pharmacy and Health Sciences. <br></br> First Black Woman Elected President in the College&apos;s 141-Year History
+              10th President, Albany College of Pharmacy and Health Sciences. First Black Woman Elected President in the College&apos;s 141-Year History
             </p>
           </AnimatedSection>
 
@@ -53,7 +53,7 @@ export function HeroSection() {
                 href="/speaker-request"
                 className="px-6 py-3 border-2 border-white/30 hover:border-[#FAC775] hover:text-[#FAC775] text-white font-semibold rounded-md transition-colors duration-200"
               >
-                Request Prof. Tofade to Speak
+                Request Dr. Tofade to Speak
               </Link>
             </div>
           </AnimatedSection>

@@ -11,14 +11,8 @@ const honors = [
     icon: Trophy,
   },
   {
-    year: "2022-2023",
-    title: "Chair of the Council of Deans",
-    description: "American Association of Colleges of Pharmacy",
-    icon: Star,
-  },
-  {
     year: "2022",
-    title: "Donald E. Francke Medal: American Society for Health System Pharmacists",
+    title: "ASHP Donald E. Francke Medal",
     description: "For significant international contributions to pharmacy practice.",
     icon: Medal,
   },
@@ -26,12 +20,6 @@ const honors = [
     year: "2022",
     title: "Top 25 Women Leaders in Healthcare Education",
     description: "Women We Admire recognition.",
-    icon: Star,
-  },
-    {
-    year: "2021-2025",
-    title: "President",
-    description: "FIP Academic Pharmacy Section",
     icon: Star,
   },
   {

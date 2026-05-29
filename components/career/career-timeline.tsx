@@ -50,7 +50,7 @@ const timelineItems = [
     color: "navy",
   },
   {
-    period: "2022 - 2026",
+    period: "2022 - Present",
     title: "10th President",
     organization: "Albany College of Pharmacy and Health Sciences",
     description: "The first Black woman elected president in ACPHS 141-year history. Approved seven new degree programs in 2024. Applications increased 19%, PharmD deposits increased 210%.",
