@@ -56,7 +56,7 @@ export default function WorkWithMePage() {
       <Navigation />
 
       {/* Hero */}
-      <section className="relative pt-32 pb-20 bg-[#0C3050] overflow-hidden">
+      <section className="relative pt-32 pb-10 bg-[#0C3050] overflow-hidden">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-0 right-0 w-96 h-96 bg-[#C6993A] rounded-full blur-3xl translate-x-1/2 -translate-y-1/2" />
         </div>
@@ -68,9 +68,6 @@ export default function WorkWithMePage() {
             <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-white mt-4 mb-6">
               Work With Prof. Tofade
             </h1>
-            <p className="text-xl text-white/90 leading-relaxed">
-              Coaching grounded in executive experience
-            </p>
           </AnimatedSection>
         </div>
       </section>
@@ -80,7 +77,7 @@ export default function WorkWithMePage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection animation="fade-in-up">
             <div className="prose prose-lg max-w-none">
-              <p className="text-[#5C4A2A] text-lg leading-relaxed mb-6">
+              <p className="text-[#5C4A2A] text-lg leading-relaxed mb-0">
                 Prof. Tofade is a Certified Professional Co-active Coach (CPCC) with over two decades of executive leadership experience across higher education, healthcare, and global policy. She has led an institutional merger, secured public-private partnerships, built high-performing teams across multiple institutions, and navigated the full complexity of senior academic and healthcare administration.
               </p>
             </div>

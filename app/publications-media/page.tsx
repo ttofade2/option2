@@ -150,7 +150,7 @@ export default function PublicationsMediaPage() {
       </section>
 
       {/* Academic Publications */}
-      <section className="py-20 bg-[#F5F0E8]">
+      <section className="py-12 bg-[#F5F0E8]">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <AnimatedSection className="text-center mb-12">
             <span className="text-[#0C3050] font-semibold text-sm uppercase tracking-wider">
@@ -165,7 +165,7 @@ export default function PublicationsMediaPage() {
           </AnimatedSection>
         {/* Stats */}
         <AnimatedSection>
-          <div className="flex justify-center gap-12 mb-16 pb-16 ">
+          <div className="flex justify-center gap-12 mb-0 pb-16 ">
             <div className="text-center">
               <p className="font-serif text-5xl text-gold mb-2">1,200+</p>
               <p className="text-text-body text-sm">Research Citations</p>
