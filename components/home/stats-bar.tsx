@@ -63,8 +63,8 @@ export function StatsBar() {
           {stats.map((stat, index) => (
             <AnimatedSection key={stat.label} delay={index * 50}>
               <div className="text-center p-6 border border-navy-muted/20 hover:border-gold/50 transition-colors duration-300 h-full flex flex-col justify-start">
-                <p className="text-gold/70 text-xs font-medium mb-2">{stat.year}</p>
-                <p className="font-serif text-3xl lg:text-4xl text-gold mb-3">
+                <p className="text-white text-xs font-medium mb-2">{stat.year}</p>
+                <p className="font-serif font-bold text-3xl lg:text-4xl text-gold mb-3">
                   {stat.value}
                 </p>
                 <p className="text-white text-sm leading-relaxed">
