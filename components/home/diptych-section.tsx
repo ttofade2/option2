@@ -28,22 +28,22 @@ export function DiptychSection() {
               </blockquote>
             </div>
             <p className="mt-6 text-[#5C4A2A] pl-8">
-              Dr. Toyin Tofade
+              Prof. Toyin Tofade
             </p>
           </AnimatedSection>
                   {/* CTA Buttons */}
         <AnimatedSection animation="fade-in-up" delay={300} className="flex flex-wrap justify-center gap-4 mt-12">
           <Link
-            href="/her-story"
+            href="/work-with-me/"
             className="px-8 py-3 bg-[#0C3050] hover:bg-[#0C3050]/90 text-white font-semibold rounded-md transition-colors duration-200"
           >
-            Her Story
+            Work with Prof. Toyin
           </Link>
           <Link
             href="/speaker-request"
             className="px-8 py-3 bg-[#C6993A] hover:bg-[#FAC775] text-[#2C1A0E] font-semibold rounded-md transition-colors duration-200"
           >
-            Request Dr. Tofade to Speak
+            Speaker Request
           </Link>
         </AnimatedSection>
             </div>
@@ -75,7 +75,7 @@ export function DiptychSection() {
                   Transforming Health Sciences Education
                 </h3>
                 <p className="text-white/80 leading-relaxed mb-6">
-                  As the 10th President of Albany College of Pharmacy and Health Sciences, Dr. Tofade is guiding the institution through its most transformative era: new programs, record enrollment, and a bold new vision for health sciences education that reaches around the world.
+                  As the 10th President of Albany College of Pharmacy and Health Sciences, Prof. Tofade is guiding the institution through its most transformative era: new programs, record enrollment, and a bold new vision for health sciences education that reaches around the world.
                 </p>
                 <Link
                   href="/career"

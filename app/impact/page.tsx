@@ -87,7 +87,7 @@ export default function ImpactPage() {
                   Transforming Pharmacy Education
                 </h2>
                 <p className="text-[#5C4A2A] leading-relaxed mb-4">
-                  As Dean at Howard, Dr. Tofade oversaw the creation of a landmark FDA-GlaxoSmithKline fellowship in regulatory affairs, opening new career pathways for pharmacy graduates that had never existed before. She built partnerships in 16 countries. She elevated Howard&apos;s residency match rate from 36 to over 50 percent.
+                  As Dean at Howard, Dr. Tofade oversaw the creation of a landmark FDA-GlaxoSmithKline fellowship in regulatory affairs, opening new career pathways for pharmacy graduates that had never existed before. She built 18 international partnerships. She elevated Howard&apos;s residency match rate from 36 to over 50 percent.
                 </p>
                 <p className="text-[#5C4A2A] leading-relaxed">
                   At ACPHS, she launched seven new academic programs in a single year, the largest expansion in the institution&apos;s 141-year history. She introduced ACPHS Online, making health sciences education accessible beyond Albany. She doubled industrial fellowships for graduates in a single year.

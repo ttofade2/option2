@@ -6,7 +6,7 @@ import { GraduationCap } from "lucide-react"
 const education = [
   {
     degree: "BPharm",
-    institution: "Obafemi Awolowo University, Ile-Ife, Nigeria",
+    institution: "Obafemi Awolowo University, Ile-Ife, Nigeria (1989)",
   },
   {
     degree: "MS in Pharmacy Practice",
@@ -26,15 +26,15 @@ const education = [
   },
   {
     degree: "Academic Leadership Academy",
-    institution: "Penn State",
+    institution: "The Pennsylvania State University (2016)",
   },
   {
     degree: "Management Development Programme",
-    institution: "Harvard Graduate School of Education",
+    institution: "Harvard Graduate School of Education (2017)",
   },
   {
-    degree: "Crisis Leadership in Higher Education",
-    institution: "Harvard Kennedy School (2020)",
+    degree: "Certificate in Public Leadership",
+    institution: "Harvard Kennedy School (2023)",
   },
 ]
 

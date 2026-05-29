@@ -8,21 +8,28 @@ const stats = [
     icon: BookOpen,
     value: "1,000+",
     label: "Research Citations",
+    year: "2026",
   },
   {
     icon: TrendingUp,
-    value: "35%",
-    label: "Increase in Student Deposits in 2024",
+    value: "210%",
+    label: "Increase in Student Deposits since 2022",
+    year: "2024",
+
   },
   {
     icon: Globe,
-    value: "18",
-    label: "International Partnerships at Howard",
+    value: "6",
+    label: "Continents: International partnerships spanning every inhabited continent",
+    year: "2021",
+
   },
   {
     icon: Award,
     value: "3X",
     label: "Albany Business Review Power 50",
+    year: "2023, 2024, 2025",
+
   },
 
 ]
@@ -45,6 +52,9 @@ export function StatsBar() {
               </p>
               <p className="text-[#B5D4F4] text-sm">
                 {stat.label}
+              </p>
+              <p className="text-[#B5D4F4] text-sm">
+                {stat.year}
               </p>
             </AnimatedSection>
           ))}
