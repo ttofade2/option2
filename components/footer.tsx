@@ -8,9 +8,10 @@ export function Footer() {
         <div className="grid md:grid-cols-3 gap-12">
           {/* Brand Column */}
           <div>
-            <h3 className="font-serif text-2xl font-bold mb-4">Prof. Toyin Tofade</h3>
+            <h3 className="font-serif text-2xl font-bold mb-4">Dr. Toyin Tofade</h3>
             <p className="text-white/70 text-sm leading-relaxed">
-              A visionary leader at the intersection of healthcare and higher education.
+              College President. Author. Global Women&apos;s Leader. 
+              Called to lead. Called to serve.
             </p>
           </div>
 
@@ -56,7 +57,7 @@ export function Footer() {
             <h4 className="font-serif text-lg font-bold mb-4 text-[#FAC775]">Connect</h4>
             <div className="flex gap-4 mb-4">
               <a
-                href="https://www.linkedin.com/in/toyin-tofade-a604181a/"
+                href="https://www.linkedin.com/in/toyin-tofade/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-white/10 hover:bg-[#C6993A] flex items-center justify-center transition-colors"
@@ -72,16 +73,22 @@ export function Footer() {
                 <Mail className="w-5 h-5" />
               </a>
             </div>
-           
+            <p className="text-white/70 text-sm">
+              Albany College of Pharmacy and Health Sciences<br />
+              106 New Scotland Avenue<br />
+              Albany, NY 12208
+            </p>
           </div>
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-white/10 mt-12 pt-8 text-center  items-center gap-4">
-          <p className="text-white/50 text-sm center">
-            &copy; {new Date().getFullYear()} Prof. Toyin Tofade. All rights reserved.
+        <div className="border-t border-white/10 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+          <p className="text-white/50 text-sm">
+            &copy; {new Date().getFullYear()} Dr. Toyin Tofade. All rights reserved.
           </p>
-
+          <p className="text-white/50 text-sm">
+            10th President, Albany College of Pharmacy and Health Sciences
+          </p>
         </div>
       </div>
     </footer>

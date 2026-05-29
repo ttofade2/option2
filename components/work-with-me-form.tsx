@@ -44,7 +44,7 @@ export function WorkWithMeForm() {
           Thank You!
         </h3>
         <p className="text-[#5C4A2A]">
-          Your enquiry has been submitted.
+          Your enquiry has been submitted. Prof. Tofade&apos;s team will respond within five business days.
         </p>
       </div>
     )
@@ -111,8 +111,10 @@ export function WorkWithMeForm() {
           >
             <option value="">Select type of engagement</option>
             <option value="executive-coaching">Executive Leadership Coaching</option>
+            <option value="emerging-leader">Emerging Leader Accelerator</option>
             <option value="organisational-development">Organisational & Team Development</option>
             <option value="board-advisory">Board Advisory & Governance</option>
+            <option value="speaking">Speaking & Leadership Facilitation</option>
             <option value="other">Other</option>
           </select>
         </div>
@@ -135,7 +137,7 @@ export function WorkWithMeForm() {
         {/* Preferred Timeline */}
         <div>
           <label htmlFor="timeline" className="block text-sm font-semibold text-[#2C1A0E] mb-2">
-            Preferred Timeline or Start Date
+            Preferred Timeline or Event Date
           </label>
           <input
             type="text"
@@ -145,20 +147,6 @@ export function WorkWithMeForm() {
             placeholder="If applicable"
           />
         </div>
-
-          {/* Honorarium Range */}
-            <div>
-              <label htmlFor="honorarium" className="block text-sm font-semibold text-[#2C1A0E] mb-2">
-                Honorarium Range or Budget
-              </label>
-              <input
-                type="text"
-                id="honorarium"
-                name="honorarium"
-                className="w-full px-4 py-3 rounded-lg border border-[#EDE5D4] bg-[#F5F0E8] text-[#2C1A0E] focus:outline-none focus:ring-2 focus:ring-[#C6993A] transition-shadow"
-                placeholder="Your budget range"
-              />
-            </div>
 
         {/* How did you find Prof. Tofade */}
         <div>
